@@ -4,4 +4,4 @@ Snaps:
 <img width="1917" height="912" alt="Image" src="https://github.com/user-attachments/assets/3545fa0c-af33-48ed-a083-5d99b4135ec1" />
 <img width="1918" height="908" alt="Image" src="https://github.com/user-attachments/assets/ed3d5519-b4c0-490d-9f1b-b86936d897c3" />
 Recording:
-<!-- Uploading "Recording 2025-08-27 235212.mp4"... -->
+https://github.com/user-attachments/assets/23ef0d43-c7ca-4fec-b3e6-eac4976d4905
