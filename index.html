@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitarth's Improvised Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="theme-toggle" class="theme-toggle">🌙</button>
+    <button id="music-toggle" class="theme-toggle">🔇</button>
+    <div class="container">
+        <div id="landing-page">
+            <h1>Tic Tac Toe</h1>
+            <div class="rules">
+                <h2>Remember</h2>
+                <ul> 
+                    <li>We have made an improvisation in the game i.e. After 3 moves, your oldest move will fade and disappear...just play you will get it.</li>
+                </ul>
+            </div>
+            <div class="buttons">
+                <button id="vs-computer">Play vs Computer</button>
+                <button id="vs-player">Play vs Player 2</button>
+            </div>
+        </div>
+
+        <div id="game-page" class="hidden">
+            <h2 id="game-status">Player X's Turn</h2>
+            <div class="game-board">
+                <div class="cell" data-index="0"></div>
+                <div class="cell" data-index="1"></div>
+                <div class="cell" data-index="2"></div>
+                <div class="cell" data-index="3"></div>
+                <div class="cell" data-index="4"></div>
+                <div class="cell" data-index="5"></div>
+                <div class="cell" data-index="6"></div>
+                <div class="cell" data-index="7"></div>
+                <div class="cell" data-index="8"></div>
+            </div>
+            <button id="restart-game">Restart Game</button>
+            <button id="back-to-menu">Back to Menu</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <footer style="text-align: center; margin-top: 2rem; color: var(--text-color); font-size: 0.9rem;">A port-mortem production by hitarth</footer>
+</body>
+</html>
